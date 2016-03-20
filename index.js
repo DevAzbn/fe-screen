@@ -1,5 +1,6 @@
 'use strict';
 
+// https://github.com/sindresorhus/pageres
 var Pageres = require('pageres');
 
 var params = {
