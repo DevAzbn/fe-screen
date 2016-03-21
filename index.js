@@ -17,7 +17,7 @@ for (var i = 0; i < process.argv.length; i++) {
 
 var pageres = new Pageres({
 		delay: params.delay,
-		format : param.format,
+		format : params.format,
 		//selector : '#profile-registration',
 		//hide
 		filename : '<%= size %>',
