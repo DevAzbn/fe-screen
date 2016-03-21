@@ -7,6 +7,7 @@ var params = {
 	url : 'http://yandex.ru',
 	delay : 1,
 	crop : false,
+	format : 'jpg',
 };
 
 for (var i = 0; i < process.argv.length; i++) {
@@ -16,7 +17,7 @@ for (var i = 0; i < process.argv.length; i++) {
 
 var pageres = new Pageres({
 		delay: params.delay,
-		//format : 'jpg',
+		format : param.format,
 		//selector : '#profile-registration',
 		//hide
 		filename : '<%= size %>',
